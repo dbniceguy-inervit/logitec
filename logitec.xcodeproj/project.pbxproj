@@ -14,12 +14,13 @@
 		021D27E415BA4C9F009AC9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D27E315BA4C9F009AC9DC /* main.m */; };
 		021D27E815BA4CA0009AC9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D27E715BA4CA0009AC9DC /* AppDelegate.m */; };
 		021D27EB15BA4CA0009AC9DC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021D27E915BA4CA0009AC9DC /* MainStoryboard.storyboard */; };
-		021D27EE15BA4CA0009AC9DC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D27ED15BA4CA0009AC9DC /* FirstViewController.m */; };
-		021D27F515BA4CA0009AC9DC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D27F415BA4CA0009AC9DC /* SecondViewController.m */; };
 		021D280415BA4D4C009AC9DC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 021D280015BA4D4C009AC9DC /* first.png */; };
 		021D280515BA4D4C009AC9DC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 021D280115BA4D4C009AC9DC /* first@2x.png */; };
 		021D280615BA4D4C009AC9DC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 021D280215BA4D4C009AC9DC /* second.png */; };
 		021D280715BA4D4C009AC9DC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 021D280315BA4D4C009AC9DC /* second@2x.png */; };
+		021D280A15BA5018009AC9DC /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D280915BA5018009AC9DC /* settingsViewController.m */; };
+		021D281115BA535A009AC9DC /* freshMung.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 021D281015BA535A009AC9DC /* freshMung.jpeg */; };
+		021D281415BA541A009AC9DC /* diaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D281315BA541A009AC9DC /* diaryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,14 +35,15 @@
 		021D27E615BA4CA0009AC9DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		021D27E715BA4CA0009AC9DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		021D27EA15BA4CA0009AC9DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		021D27EC15BA4CA0009AC9DC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		021D27ED15BA4CA0009AC9DC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		021D27F315BA4CA0009AC9DC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		021D27F415BA4CA0009AC9DC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		021D280015BA4D4C009AC9DC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		021D280115BA4D4C009AC9DC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		021D280215BA4D4C009AC9DC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		021D280315BA4D4C009AC9DC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		021D280815BA5018009AC9DC /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settingsViewController.h; path = interfaces/settingsViewController.h; sourceTree = "<group>"; };
+		021D280915BA5018009AC9DC /* settingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = settingsViewController.m; path = interfaces/settingsViewController.m; sourceTree = "<group>"; };
+		021D281015BA535A009AC9DC /* freshMung.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = freshMung.jpeg; sourceTree = "<group>"; };
+		021D281215BA541A009AC9DC /* diaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diaryViewController.h; path = interfaces/diaryViewController.h; sourceTree = "<group>"; };
+		021D281315BA541A009AC9DC /* diaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = diaryViewController.m; path = interfaces/diaryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,14 +90,11 @@
 		021D27DD15BA4C9F009AC9DC /* logitec */ = {
 			isa = PBXGroup;
 			children = (
+				021D280B15BA501E009AC9DC /* interfaces */,
 				021D27FF15BA4D4C009AC9DC /* images */,
 				021D27E615BA4CA0009AC9DC /* AppDelegate.h */,
 				021D27E715BA4CA0009AC9DC /* AppDelegate.m */,
 				021D27E915BA4CA0009AC9DC /* MainStoryboard.storyboard */,
-				021D27EC15BA4CA0009AC9DC /* FirstViewController.h */,
-				021D27ED15BA4CA0009AC9DC /* FirstViewController.m */,
-				021D27F315BA4CA0009AC9DC /* SecondViewController.h */,
-				021D27F415BA4CA0009AC9DC /* SecondViewController.m */,
 				021D27DE15BA4C9F009AC9DC /* Supporting Files */,
 			);
 			path = logitec;
@@ -115,12 +114,24 @@
 		021D27FF15BA4D4C009AC9DC /* images */ = {
 			isa = PBXGroup;
 			children = (
+				021D281015BA535A009AC9DC /* freshMung.jpeg */,
 				021D280015BA4D4C009AC9DC /* first.png */,
 				021D280115BA4D4C009AC9DC /* first@2x.png */,
 				021D280215BA4D4C009AC9DC /* second.png */,
 				021D280315BA4D4C009AC9DC /* second@2x.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		021D280B15BA501E009AC9DC /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				021D280815BA5018009AC9DC /* settingsViewController.h */,
+				021D280915BA5018009AC9DC /* settingsViewController.m */,
+				021D281215BA541A009AC9DC /* diaryViewController.h */,
+				021D281315BA541A009AC9DC /* diaryViewController.m */,
+			);
+			name = interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 				021D280515BA4D4C009AC9DC /* first@2x.png in Resources */,
 				021D280615BA4D4C009AC9DC /* second.png in Resources */,
 				021D280715BA4D4C009AC9DC /* second@2x.png in Resources */,
+				021D281115BA535A009AC9DC /* freshMung.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +204,8 @@
 			files = (
 				021D27E415BA4C9F009AC9DC /* main.m in Sources */,
 				021D27E815BA4CA0009AC9DC /* AppDelegate.m in Sources */,
-				021D27EE15BA4CA0009AC9DC /* FirstViewController.m in Sources */,
-				021D27F515BA4CA0009AC9DC /* SecondViewController.m in Sources */,
+				021D280A15BA5018009AC9DC /* settingsViewController.m in Sources */,
+				021D281415BA541A009AC9DC /* diaryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
