@@ -21,6 +21,8 @@
 		021D280A15BA5018009AC9DC /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D280915BA5018009AC9DC /* settingsViewController.m */; };
 		021D281115BA535A009AC9DC /* freshMung.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 021D281015BA535A009AC9DC /* freshMung.jpeg */; };
 		021D281415BA541A009AC9DC /* diaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D281315BA541A009AC9DC /* diaryViewController.m */; };
+		021D30AC15BD3423009AC9DC /* detailDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D30AB15BD3423009AC9DC /* detailDiaryViewController.m */; };
+		021D30B015BD3A66009AC9DC /* newOrEditDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D30AF15BD3A66009AC9DC /* newOrEditDiaryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,10 @@
 		021D281015BA535A009AC9DC /* freshMung.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = freshMung.jpeg; sourceTree = "<group>"; };
 		021D281215BA541A009AC9DC /* diaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diaryViewController.h; path = interfaces/diaryViewController.h; sourceTree = "<group>"; };
 		021D281315BA541A009AC9DC /* diaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = diaryViewController.m; path = interfaces/diaryViewController.m; sourceTree = "<group>"; };
+		021D30AA15BD3423009AC9DC /* detailDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = detailDiaryViewController.h; path = interfaces/detailDiaryViewController.h; sourceTree = "<group>"; };
+		021D30AB15BD3423009AC9DC /* detailDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = detailDiaryViewController.m; path = interfaces/detailDiaryViewController.m; sourceTree = "<group>"; };
+		021D30AE15BD3A66009AC9DC /* newOrEditDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newOrEditDiaryViewController.h; path = interfaces/newOrEditDiaryViewController.h; sourceTree = "<group>"; };
+		021D30AF15BD3A66009AC9DC /* newOrEditDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newOrEditDiaryViewController.m; path = interfaces/newOrEditDiaryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,10 @@
 				021D280915BA5018009AC9DC /* settingsViewController.m */,
 				021D281215BA541A009AC9DC /* diaryViewController.h */,
 				021D281315BA541A009AC9DC /* diaryViewController.m */,
+				021D30AA15BD3423009AC9DC /* detailDiaryViewController.h */,
+				021D30AB15BD3423009AC9DC /* detailDiaryViewController.m */,
+				021D30AE15BD3A66009AC9DC /* newOrEditDiaryViewController.h */,
+				021D30AF15BD3A66009AC9DC /* newOrEditDiaryViewController.m */,
 			);
 			name = interfaces;
 			sourceTree = "<group>";
@@ -206,6 +216,8 @@
 				021D27E815BA4CA0009AC9DC /* AppDelegate.m in Sources */,
 				021D280A15BA5018009AC9DC /* settingsViewController.m in Sources */,
 				021D281415BA541A009AC9DC /* diaryViewController.m in Sources */,
+				021D30AC15BD3423009AC9DC /* detailDiaryViewController.m in Sources */,
+				021D30B015BD3A66009AC9DC /* newOrEditDiaryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +329,7 @@
 				021D27FE15BA4CA0009AC9DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
