@@ -23,6 +23,7 @@
 		021D281415BA541A009AC9DC /* diaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D281315BA541A009AC9DC /* diaryViewController.m */; };
 		021D30AC15BD3423009AC9DC /* detailDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D30AB15BD3423009AC9DC /* detailDiaryViewController.m */; };
 		021D30B015BD3A66009AC9DC /* newOrEditDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021D30AF15BD3A66009AC9DC /* newOrEditDiaryViewController.m */; };
+		0255BE0715BF7C6B001A5420 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0255BE0615BF7C6B001A5420 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		021D30AB15BD3423009AC9DC /* detailDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = detailDiaryViewController.m; path = interfaces/detailDiaryViewController.m; sourceTree = "<group>"; };
 		021D30AE15BD3A66009AC9DC /* newOrEditDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newOrEditDiaryViewController.h; path = interfaces/newOrEditDiaryViewController.h; sourceTree = "<group>"; };
 		021D30AF15BD3A66009AC9DC /* newOrEditDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newOrEditDiaryViewController.m; path = interfaces/newOrEditDiaryViewController.m; sourceTree = "<group>"; };
+		0255BE0615BF7C6B001A5420 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0255BE0715BF7C6B001A5420 /* MapKit.framework in Frameworks */,
 				021D27D815BA4C9F009AC9DC /* UIKit.framework in Frameworks */,
 				021D27DA15BA4C9F009AC9DC /* Foundation.framework in Frameworks */,
 				021D27DC15BA4C9F009AC9DC /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +89,7 @@
 		021D27D615BA4C9F009AC9DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0255BE0615BF7C6B001A5420 /* MapKit.framework */,
 				021D27D715BA4C9F009AC9DC /* UIKit.framework */,
 				021D27D915BA4C9F009AC9DC /* Foundation.framework */,
 				021D27DB15BA4C9F009AC9DC /* CoreGraphics.framework */,

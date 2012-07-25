@@ -242,10 +242,6 @@
                                             <action selector="actionBtnDateChange:" destination="Bg2-v9-tCc" eventType="touchUpInside" id="fJe-28-VVb"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="freshMung.jpeg" id="rLq-g2-4hE">
-                                        <rect key="frame" x="20" y="149" width="140" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="freshMung.jpeg" id="NaK-rv-ZV5">
                                         <rect key="frame" x="160" y="149" width="140" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -257,6 +253,10 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="Gue-3p-7b8">
+                                        <rect key="frame" x="20" y="149" width="140" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </mapView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -268,6 +268,7 @@
                     <connections>
                         <outlet property="ivPicture" destination="NaK-rv-ZV5" id="l5u-i3-NTV"/>
                         <outlet property="lbDate" destination="zjS-a6-5ls" id="RNa-e0-1Cw"/>
+                        <outlet property="mvLocation" destination="Gue-3p-7b8" id="R1c-px-G4P"/>
                         <outlet property="scrollViewMain" destination="a8p-lB-CXq" id="NCq-HT-3YO"/>
                         <outlet property="tfTitle" destination="RsZ-gY-KX1" id="T7l-B5-8Kl"/>
                         <outlet property="tvDiary" destination="AcF-Kq-xuX" id="Lje-BF-xWL"/>
@@ -446,6 +447,7 @@
                 <relationship kind="action" name="actionBtnWeather:"/>
                 <relationship kind="outlet" name="ivPicture" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="lbDate" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="mvLocation" candidateClass="MKMapView"/>
                 <relationship kind="outlet" name="scrollViewMain" candidateClass="UIScrollView"/>
                 <relationship kind="outlet" name="tfTitle" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="tvDiary" candidateClass="UITextView"/>
